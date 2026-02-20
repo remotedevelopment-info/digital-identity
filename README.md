@@ -4,7 +4,7 @@ An open source digital blockchain for individual digital identity management.
 
 ## Overview
 
-**digital-identity** is a free, open source blockchain platform that gives every individual subscriber their own personal digital identity chain. Each subscriber's chain is a smart contract blockchain that permanently and transparently records:
+**digital-identity** is a propsed free, open source blockchain platform that gives every individual subscriber their own personal digital identity chain. Each subscriber's chain is a smart contract blockchain that permanently and transparently records:
 
 - **Public identity information** – verified attributes and credentials that the subscriber chooses to make public.
 - **Identification events** – every act of identification (logins, verifications, authorizations, and other identity transactions) is recorded as an immutable event on the chain.
