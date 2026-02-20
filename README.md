@@ -1,5 +1,11 @@
 # digital-identity
 
+DISCLAIMER: This is an experimental open source project.  If you want to contribute: please fork a branch and raise a PR.
+
+The idea is to create a open source digitial ID that uses blockchain methods to store a chain of identifications that are irrevokable with a basis that is only known to the owner.
+
+v0.0.1 created with GTP-5.3-Codex.
+
 An open source, chain-agnostic identity ledger for individual digital identity management.
 
 ## Overview
