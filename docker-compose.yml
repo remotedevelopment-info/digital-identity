@@ -1,0 +1,17 @@
+services:
+  identityd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: digital-identity:latest
+    container_name: identityd
+    ports:
+      - "8080:8080"
+    environment:
+      IDENTITY_HTTP_ADDR: ":8080"
+      IDENTITY_STORE_PATH: "/home/app/data/chains.json"
+    volumes:
+      - identity_data:/home/app/data
+
+volumes:
+  identity_data:
